@@ -1,0 +1,301 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style-type: none;
+    background-color: hwb(0 35% 0% / 0.836);
+    border: 2px solid rgb(139, 0, 0);
+    margin: 0;
+}
+
+
+.boton{
+    width: 70px;
+    height: 30px;
+    font-size: 20px; 
+    margin: 125PX 30PX;
+    border-radius: 5PX;
+}
+
+
+.padre{
+    background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#dbdbdb 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #dbdbdb 75px, #dbdbdb 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #dbdbdb 76px, #dbdbdb 77px, transparent 78px, transparent 109px),
+  #dbdbdb;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 30PX;
+}
+
+.moto{
+    text-align:center;
+    padding: 150PX;
+    width: 900PX;
+    height: 400px;
+    font-size: 50PX;
+    background-image: url(./img/klim-musalimov-rDMacl1FDjw-unsplash.jpg);
+    
+}
+
+.portada{
+    background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#666666 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #666666 75px, #666666 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #666666 76px, #666666 77px, transparent 78px, transparent 109px),
+  #666666;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.hijos{
+    background-color:rgb(221, 221, 221);
+    border: 2px solid #080808;
+    width:300px;
+    height: 590px;
+    border-radius: 15PX;
+    box-shadow: 5px 5px 20px #f70000f6;
+}
+
+.imagenes{
+    justify-content: center;
+    height: 370PX;
+    width: 295PX;
+    padding: 10px;
+}
+
+.lista{
+    padding: -10PX;
+    gap: 10px;
+    margin: -10PX;
+    height: 20px;
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.titulos{
+    text-align: center;
+    text-indent: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    height: 40PX;
+    width: 95%;
+    background-color:#a1a1a1 ;
+    border-radius: 20PX;
+    padding: 5PX;
+}
+.casa{
+    background-image: url(./img/dhiva-krishna-YApS6TjKJ9c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.auto{
+    background-image: url(./img/faros-nuevo-auto-rojo-concesionario-automoviles.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+}
+
+.active{
+    height: 650px;
+    width:800px;
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    
+    
+}
+
+.frio{
+    height: auto;
+    width: auto;
+    border-radius: 30PX;
+}
+
+.carousel{
+    padding: 40px;
+}
+
+.fondo{
+    background-image: url(./img/pareja-buscando-coche-nuevo-concesionario.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(151, 32, 32);
+}
+
+.adelante{
+    background-image: url(./img/mujer-joven-disfrutando-viaje-carretera.jpg);
+    background-size: cover;
+    border: 2px solid rgb(151, 32, 32);
+}
+
+
+.costado{
+    background-image: url(./img/dos-hombres-negocios-dandose-mano.jpg);
+    background-size: cover ;
+    background-position: center;
+    border: 2px solid rgb(151, 32, 32);
+}
+
+.container{
+    background-color: rgb(252, 44, 44);
+}
+.ancho{
+    width: 100%;
+    height: auto;
+    background-color: rgb(151, 32, 32);
+    margin: 0PX;
+    
+}
+
+.hora{
+    
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width:auto;
+    border-radius: 30PX;
+    border: 2px solid rgb(151, 32, 32) ;
+    
+}
+.TEXTO{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 30PX;
+    font-family:fantasy;
+    width: 100%;
+    height: AUTO;
+}
+.TITULO3{
+    height: 40px;
+    width: AUTO;
+    background-color:#a1a1a1;
+    margin: 0;
+    border: 2px solid  black;
+    font-size: 30px;
+}
+
+.barra{
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    
+}
+ .frm{
+    width: 100%;
+    height: autopx;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: AUTO;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:rgb(252, 44, 44);
+    padding: 10px;
+}
+
+#enviar{
+    background-color:#a1a1a1;
+    width: 70px;
+    height: 30px;
+}
+
+.consulta1{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    background-color: rgb(252, 44, 44);
+    
+}
+    
+
+.mapa{
+ height: 310px;
+ width: 500px;
+ justify-items: center;
+ margin-left: 0px;
+ margin-bottom: -15px;
+}
+
+.redes2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 60px;
+    
+}
+
+.listacontacto{
+    list-style-type: none;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(151, 32, 32);
+    padding: 10px;
+}
+
+.footer1{
+    font-size: 15px !important;
+}
+
+.animacion:hover{
+    transform: rotate(360deg) !important; 
+    transition: 1s;
+}
+
+.animacion2:hover{
+    transform: translate(10px,-10px);
+    transition: 0.5s;
+}
+.principal {
+    animation: rotate 1s linear 2s;
+    text-align: center;
+    margin-left: -130px;
+    margin-top: 10px;
+    color: white;
+    
+}    
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
